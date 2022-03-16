@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5AE98E927E277D30013DF9B /* UseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE98E827E277D30013DF9B /* UseViewController.swift */; };
+		A5AE98EB27E2783B0013DF9B /* TaskMakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE98EA27E2783B0013DF9B /* TaskMakeViewController.swift */; };
+		A5AE98ED27E279A10013DF9B /* TaskCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE98EC27E279A10013DF9B /* TaskCategoryViewController.swift */; };
+		A5AE98EF27E279F30013DF9B /* HamsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE98EE27E279F30013DF9B /* HamsterViewController.swift */; };
+		A5AE98F127E27D210013DF9B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE98F027E27D210013DF9B /* TabBarController.swift */; };
 		A5DB90E927E077C800B023CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB90E827E077C800B023CA /* AppDelegate.swift */; };
 		A5DB90EB27E077C800B023CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB90EA27E077C800B023CA /* SceneDelegate.swift */; };
-		A5DB90ED27E077C800B023CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB90EC27E077C800B023CA /* ViewController.swift */; };
 		A5DB90F027E077C800B023CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DB90EE27E077C800B023CA /* Main.storyboard */; };
 		A5DB90F227E077CA00B023CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DB90F127E077CA00B023CA /* Assets.xcassets */; };
 		A5DB90F527E077CA00B023CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DB90F327E077CA00B023CA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5AE98E827E277D30013DF9B /* UseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseViewController.swift; sourceTree = "<group>"; };
+		A5AE98EA27E2783B0013DF9B /* TaskMakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMakeViewController.swift; sourceTree = "<group>"; };
+		A5AE98EC27E279A10013DF9B /* TaskCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategoryViewController.swift; sourceTree = "<group>"; };
+		A5AE98EE27E279F30013DF9B /* HamsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterViewController.swift; sourceTree = "<group>"; };
+		A5AE98F027E27D210013DF9B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A5DB90E527E077C800B023CA /* hamsterTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamsterTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DB90E827E077C800B023CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DB90EA27E077C800B023CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5DB90EC27E077C800B023CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5DB90EF27E077C800B023CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5DB90F127E077CA00B023CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5DB90F427E077CA00B023CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +66,11 @@
 			children = (
 				A5DB90E827E077C800B023CA /* AppDelegate.swift */,
 				A5DB90EA27E077C800B023CA /* SceneDelegate.swift */,
-				A5DB90EC27E077C800B023CA /* ViewController.swift */,
+				A5AE98E827E277D30013DF9B /* UseViewController.swift */,
+				A5AE98EA27E2783B0013DF9B /* TaskMakeViewController.swift */,
+				A5AE98EC27E279A10013DF9B /* TaskCategoryViewController.swift */,
+				A5AE98EE27E279F30013DF9B /* HamsterViewController.swift */,
+				A5AE98F027E27D210013DF9B /* TabBarController.swift */,
 				A5DB90EE27E077C800B023CA /* Main.storyboard */,
 				A5DB90F127E077CA00B023CA /* Assets.xcassets */,
 				A5DB90F327E077CA00B023CA /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DB90ED27E077C800B023CA /* ViewController.swift in Sources */,
+				A5AE98EB27E2783B0013DF9B /* TaskMakeViewController.swift in Sources */,
 				A5DB90E927E077C800B023CA /* AppDelegate.swift in Sources */,
+				A5AE98E927E277D30013DF9B /* UseViewController.swift in Sources */,
+				A5AE98ED27E279A10013DF9B /* TaskCategoryViewController.swift in Sources */,
+				A5AE98F127E27D210013DF9B /* TabBarController.swift in Sources */,
 				A5DB90EB27E077C800B023CA /* SceneDelegate.swift in Sources */,
+				A5AE98EF27E279F30013DF9B /* HamsterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +338,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
